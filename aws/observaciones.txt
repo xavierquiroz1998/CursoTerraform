@@ -1,0 +1,13 @@
+
+terraform init = para inicializar un nuevo proyecto y que se decarguen la libreria necesaria 
+
+terraform init -upgrade = si se daña o se crea mal el archivo por defecto terraform 
+
+
+terraform validate = para verificar que no haya errores en sintaxis
+
+terrafrom apply = aplicar cambios de las variables 
+
+terraform apply -var nombre-variable = "curso de produccion"  = para asignarle otro valor a las varibales de ejecucion 
+
+terraform apply -var-file= "nuevas_variables.tfvars" = para que pueda leer otro archivo en la definicion de varibales 
